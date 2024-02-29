@@ -1,0 +1,62 @@
+body {
+  background-image: url("sd.jpg");
+  backgrooun-size: cover;
+}
+/* background-color: rgb(105, 176, 193);
+} */
+
+.pt {
+  background-color: rgb(74, 137, 185);
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.drot {
+  font-size: 25px;
+  color: rgb(1, 3, 3);
+  background-color: rgb(74, 137, 185);
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #4caf50;
+  color: rgb(17, 16, 16);
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  background-color: aliceblue;
+  color: black;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.grey-image {
+  filter: grayscale(1);
+  transition: 1s;
+}
+.grey-image:hover {
+  filter: grayscale(0);
+}
